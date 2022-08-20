@@ -1,7 +1,7 @@
 PROGNAME=readsb
 READSB_VERSION='v4.0.3'
 
-RTLSDR ?= no
+RTLSDR ?= yes
 BLADERF ?= no
 PLUTOSDR ?= no
 AGGRESSIVE ?= no
