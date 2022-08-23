@@ -212,7 +212,8 @@ namespace READSB {
                         .on(container, "mouseover", this.expand, this)
                         .on(container, "mouseout", this.collapse, this);
                 }
-                const link = L.DomUtil.create("a", className + "-toggle", container) as HTMLLinkElement;
+                const xxx = L.DomUtil.create("a", className + "-toggle", container) as unknown;
+                const link = xxx as HTMLLinkElement;
                 link.href = "#";
                 link.title = "Layers";
 
