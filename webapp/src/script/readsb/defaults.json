@@ -1,8 +1,8 @@
 {
   "AppLanguage": "en",
   "BaseLayer": "osm",
-  "CenterLat": 45.0,
-  "CenterLon": 9.0,
+  "CenterLat": 47.128289, 
+  "CenterLon": 15.211371,
   "DimMap": false,
   "DisplayUnits": "nautical",
   "EnableFilter": false,
@@ -27,8 +27,8 @@
   "ShowTraceDetails": false,
   "ShowUSLayers": true,
   "SiteCirclesDistances": "100,150,200",
-  "SiteLat": 45.0,
-  "SiteLon": 9.0,
+  "SiteLat": 47.128289,
+  "SiteLon": 15.211371,
   "UseDarkTheme": false,
   "ZoomLevel": 7
 }
