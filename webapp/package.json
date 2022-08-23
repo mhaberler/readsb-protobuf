@@ -17,7 +17,9 @@
   "license": "GPL 3+",
   "devDependencies": {
     "@types/file-saver": "^2.0.1",
+    "@types/geojson": "^7946.0.10",
     "@types/jquery": "^3.5.3",
+    "@types/leaflet": "^1.7.11",
     "@types/node": "^12.12.69",
     "typescript": "^4.7.4"
   },
