@@ -123,7 +123,8 @@ var READSB;
                         .on(container, "mouseover", this.expand, this)
                         .on(container, "mouseout", this.collapse, this);
                 }
-                const link = L.DomUtil.create("a", className + "-toggle", container);
+                const xxx = L.DomUtil.create("a", className + "-toggle", container);
+                const link = xxx;
                 link.href = "#";
                 link.title = "Layers";
                 if (L.Browser.touch) {
