@@ -25,9 +25,14 @@ namespace READSB {
         public static CreateBaseLayers(): L.GroupedLayersCollection {
             const eu: L.TileLayer[] = [];
             const us: L.TileLayer[] = [];
-            const world: L.TileLayer[] = [];
+            // const world: L.TileLayer[] = [];
+            const world: any[] = [];
             const layers: L.GroupedLayersCollection = {};
 
+            world.push(L.maplibreGL({
+                // get your own MapTiler token at https://cloud.maptiler.com/ or use MapBox style
+                style: 'https://api.maptiler.com/maps/topo/style.json?key=get_your_own_OpIi9ZULNHzrESv6T2vL'
+            }));
             if (AppSettings.ShowAdditionalMaps && AppSettings.SkyVectorAPIKey !== "" && AppSettings.SkyVectorAPIKey !== null) {
                 const d = this.svDate();
 

@@ -7,6 +7,9 @@ var READSB;
             const us = [];
             const world = [];
             const layers = {};
+            world.push(L.maplibreGL({
+                style: 'https://api.maptiler.com/maps/topo/style.json?key=get_your_own_OpIi9ZULNHzrESv6T2vL'
+            }));
             if (READSB.AppSettings.ShowAdditionalMaps && READSB.AppSettings.SkyVectorAPIKey !== "" && READSB.AppSettings.SkyVectorAPIKey !== null) {
                 const d = this.svDate();
                 world.push(L.tileLayer(`//t.skyvector.com/{apiKey}/hi/{dateTime}/{z}/{x}/{y}.jpg`, {
